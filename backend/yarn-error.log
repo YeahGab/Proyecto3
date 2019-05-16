@@ -1,0 +1,59 @@
+Arguments: 
+  /home/gabriela/.nvm/versions/node/v10.15.3/bin/node /usr/share/yarn/bin/yarn.js add passport passport-local-mongoose express-session corse
+
+PATH: 
+  /home/gabriela/.nvm/versions/node/v10.15.3/bin:/home/gabriela/bin:/home/gabriela/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/corse: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www",
+      "dev": "DEBUG=backend:* nodemon ./bin/www",
+      "dev-windows": "nodemon ./bin/www"
+    },
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "cookie-parser": "^1.4.3",
+      "dotenv": "^6.0.0",
+      "express": "^4.16.3",
+      "hbs": "^4.0.1",
+      "mongoose": "^5.2.10",
+      "morgan": "^1.9.0",
+      "node-sass-middleware": "^0.11.0",
+      "serve-favicon": "^2.5.0"
+    },
+    "devDependencies": {
+      "nodemon": "^1.12.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

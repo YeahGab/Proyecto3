@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.notification {
+  background-image: url(https://luna1.co/de6c23.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  text-align: center
+}
+
+#titulo {
+  margin: 80px auto 40px;
+  font-size: 60px;
+  color: white; 
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+#firstHome {
+  padding: 0 20px;
+  font-size: 25px;
+  color: white;
+  font-family: "Raleway"
+}
+
+.miniForm {
+  display: flex;
+  align-items: center;
+  margin: 40px auto 0;
+}
+
+.input {
+  font-family: "Raleway";
+  width: 100%
+}
+
+.button {
+  margin: 0 20px;
+  color: white;
+  background-color: #796EFF;
+  font-family: "Raleway"
+}
+
+
+
+
+
